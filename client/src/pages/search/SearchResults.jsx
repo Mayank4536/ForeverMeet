@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams, Link, useNavigate } from "react-router-dom";
 
-import SearchBar from "../../components/SearchBar/SearchBar";
+import SearchBar from "../../components/SearchBar/searchBar";
 import { searchListings } from "../../services/listingService";
 
 function SearchResults() {
